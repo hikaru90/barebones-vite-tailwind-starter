@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link
+    rel="icon"
+    type="image/svg+xml"
+    href="favicon.svg"
+  />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <header class="bg-black text-white flex-shrink-0 relative">
+    <div class="flex justify-between items-center p-4">
+      <div>
+        Logo
+      </div>
+      
+      <div id="menuToggle" class="cursor-pointer hover:bg-white hover:bg-opacity-10 py-2 px-4 rounded-md">
+        Menu
+      </div>
+    </div>
+
+    <nav id="menu" class="flex flex-col invisible max-h-0 absolute bottom-1 w-full bg-black transform translate-y-full">
+      <a href="#" class="menu-entry"> Menu Item 1 </a>
+      <a href="#" class="menu-entry"> Menu Item 2 </a>
+      <a href="#" class="menu-entry"> Menu Item 3 </a>
+    </nav>
+  </header>
+  <main class="flex-grow flex justify-center items-center flex-col">
+    <h1 class="font-bold text-blue-500">Test Site using Vite and Tailwind</h1>
+    <p>Hi Tino</p>
+  </main>
+  <footer class="flex-shrink-0 bg-blue-400 p-4">
+    Footer
+  </footer>
+
+
+  <script
+    type="module"
+    src="./main.js"
+  ></script>
+</body>
+
+</html>
